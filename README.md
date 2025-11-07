@@ -34,19 +34,18 @@ It is designed for learning and demonstration of WebRTC/video chat integration, 
 - Room creation / joining capability  
 - User interface built with React  
 - Backend API built with Express + Node.js and MongoDB for data persistence  
-- Signalling server for WebRTC using sockets (if implemented)  
+- Implementing STREAM API for lightning fast video and audio services
 - Responsive UI and deployment ready  
 
 ---
 
 ## Architecture & Tech Stack
 
-- **Frontend:** React, possibly with Redux/context API, React Router  
+- **Frontend:** React,Tanstack Query 
 - **Backend:** Node.js, Express  
-- **Database:** MongoDB  
-- **Real-time communication:** WebSockets (e.g., Socket.io) and WebRTC  
+- **Database:** MongoDB Atlas
+- **Real-time communication:** Leveraging STREAM
 - **Build & tooling:** Webpack or Create-React-App, Babel, ESLint, etc  
-- **Deployment:** (Optional) Heroku / AWS / Netlify  
 
 ---
 
