@@ -75,3 +75,13 @@ npm install
 # install frontend dependencies
 cd ../frontend
 npm install
+
+### Running the code
+# in one terminal, start backend
+cd backend
+npm run dev   # or npm start
+
+# in another terminal, start frontend
+cd frontend
+npm start
+
